@@ -95,14 +95,16 @@
     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_DemoPlaySound.cs" />
     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo (CSharp)\Scripts\GA_FREE_OpenOtherScene.cs" />
     <Compile Include="Assets\GUI Animator\GUI Animator FREE\Demo Basic (CSharp)\Scripts\GUIAnimatorFREEDemo.cs" />
+    <Compile Include="Assets\character\CharactorInfo.cs" />
+    <Compile Include="Assets\character\CharactorManager.cs" />
     <Compile Include="Assets\goclean.cs" />
     <Compile Include="Assets\goeat.cs" />
     <Compile Include="Assets\gohospital.cs" />
     <Compile Include="Assets\gos3.cs" />
+    <Compile Include="Assets\gosleep.cs" />
     <Compile Include="Assets\mainscript.cs" />
     <Compile Include="Assets\opennext.cs" />
     <Compile Include="Assets\s1_script.cs" />
-    <Compile Include="Assets\sleepC.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GUI Animator\GUI Animator FREE\!How to.txt" />

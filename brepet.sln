@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "brepet", "brepet.csproj", "{DBD0AE37-D829-43CC-D70A-BB08536420AE}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "brepet", "Assembly-CSharp.csproj", "{0206680A-DEA7-0476-EE9F-6247D2A19768}"
+EndProject
+Project("{2CFFC4B9-51BD-08BF-EBEB-1CB1C4DD0597}") = "brepet", "Assembly-UnityScript.unityproj", "{D2CA3C1D-922E-EC27-F527-E981159EAC41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +11,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DBD0AE37-D829-43CC-D70A-BB08536420AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBD0AE37-D829-43CC-D70A-BB08536420AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBD0AE37-D829-43CC-D70A-BB08536420AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBD0AE37-D829-43CC-D70A-BB08536420AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0206680A-DEA7-0476-EE9F-6247D2A19768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0206680A-DEA7-0476-EE9F-6247D2A19768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0206680A-DEA7-0476-EE9F-6247D2A19768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0206680A-DEA7-0476-EE9F-6247D2A19768}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CA3C1D-922E-EC27-F527-E981159EAC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CA3C1D-922E-EC27-F527-E981159EAC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CA3C1D-922E-EC27-F527-E981159EAC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CA3C1D-922E-EC27-F527-E981159EAC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
